@@ -1,0 +1,84 @@
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+a:hover{color:blue;cursor:default;}
+</style> 
+<script>  
+var filesList = new Array();  
+var rootfileList = new Array();
+var rootindex = 0;
+var filesIndex = 0;  
+var fso = new ActiveXObject("Scripting.FileSystemObject");  
+function searchFilesList(filePath){  
+	var f = fso.GetFolder(filePath);  
+	// 遍历目录  
+	var fk = new Enumerator(f.SubFolders);  
+	for (; !fk.atEnd(); fk.moveNext()) {  
+		filesList[filesIndex++] = fk.item();
+		rootfileList[rootindex++] = fk.item();
+		searchFilesList(fk.item()); 
+			
+	}  
+	// 遍历目录文件  
+	var fc = new Enumerator(f.files);  
+	for (; !fc.atEnd(); fc.moveNext()) {  
+		filesList[filesIndex++] = fc.item();  
+	}  
+}  
+function searchFiles(){  
+	//searchFilesList(fixfolder.value);
+	//searchFilesList("C:\\Users\\user002\\Desktop\\abc");
+	var strUrl=window.location.href;
+	var arrUrl=strUrl.split("/");
+	var strPage=arrUrl[arrUrl.length-1];
+	strUrl=strUrl.replace("/"+strPage,"");
+	strUrl=strUrl.replace("file:///","");
+	strUrl=strUrl.replace(/\//g,"\\"); 
+	//var sss = "C:\\Users\\user002\\Desktop\\abc"
+	searchFilesList(strUrl);
+	// 循环信息信息  
+	for (var i=0; i<filesList.length; i++){ 
+		ttt.innerHTML+="<a onClick=csearchFiles("+i+")>"+filesList[i]+"</a><br>";
+		//ttt.innerHTML+="<input type=\"text\" value ="+filesList[i]+" //onClick=csearchFiles("+i+")><br>";
+	}  
+}  
+var nexturl 
+function csearchFiles(aaa){
+	nexturl = aaa
+	for (var i=0; i<filesList.length; i++){  
+		if(i==aaa){
+			nexturl=""+filesList[i]
+		}
+	}
+	ttt.innerHTML = "<br>"
+	var count = 0
+	for (var i=0; i<filesList.length; i++){ 
+		var ne = ""+filesList[i]
+		//ttt.innerHTML += ne
+		var at = ne.indexOf(nexturl)
+		if(at==-1){
+		
+		}else{
+			//ttt.innerHTML += ne+"<br>"
+			ttt.innerHTML+="<input type=\"button\" value ="+ne+" onClick=csearchFiles("+i+")><br>";
+		}
+	}
+	//清空数组
+	//filesList = new Array()
+	//ttt.innerHTML += filesList.length +"<br>"
+	
+	//遍历根目录数组
+	for (var i=0; i<rootfileList.length; i++){ 
+		var ne = ""+rootfileList[i]
+		ttt.innerHTML+=ne+"<br>";
+		
+	}
+}  
+</script>  
+</head>  
+<body bgcolor="#FFFFFF" onload="searchFiles()"> 
+<div id= "ttt">
+</div>  
+</body>  
+</html>  

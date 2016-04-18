@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>个人简历 JS字幕打字效果</title>
+<style type="text/css">
+body{
+	font-family: Arial;
+	margin-top:0px;
+	background-repeat:no-repeat;
+	padding-top:0px;
+	}
+    #myContent, #myContent blink{
+        width:800px;
+        height:500px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink{
+        display:inline;
+    }
+    </style>
+    <script type="text/javascript">	
+    var charIndex = -1;
+    var stringLength = 0;
+    var inputText;
+    function writeContent(init){
+    if(init){
+    	inputText = document.getElementById('contentToWrite').innerHTML;
+    }
+        if(charIndex==-1){
+            charIndex = 0;
+            stringLength = inputText.length;
+        }
+        var initString = document.getElementById('myContent').innerHTML;
+		initString = initString.replace(/<SPAN.*$/gi,"");
+        
+        var theChar = inputText.charAt(charIndex);
+       	var nextFourChars = inputText.substr(charIndex,4);
+       	if(nextFourChars=='<BR>' || nextFourChars=='<br>'){
+       		theChar  = '<BR>';
+       		charIndex+=3;
+       	}
+        initString = initString + theChar + "<SPAN id='blink'>_</SPAN>";
+        document.getElementById('myContent').innerHTML = initString;
+        charIndex = charIndex/1 +1;
+if(charIndex%2==1){
+             document.getElementById('blink').style.display='none';
+        }else{
+             document.getElementById('blink').style.display='inline';
+        }
+                
+        if(charIndex<=stringLength){
+            setTimeout('writeContent(false)',150);
+        }else{
+        	blinkSpan();
+        }  
+    }
+    var currentStyle = 'inline';
+    function blinkSpan(){
+    	if(currentStyle=='inline'){
+    	currentStyle='none';
+    	}else{
+    	currentStyle='inline';
+    	}
+    	document.getElementById('blink').style.display = currentStyle;
+    	setTimeout('blinkSpan()',500);
+    }
+    </script>
+</head>
+<body>
+<div id="myContent">
+</div>
+<div id="contentToWrite" style="display:none">
+Personal Info<br>
+Name : guochaolang<br>
+Phone number : 18270721134<br>
+Email : 2544902337@qq.com<br>
+学历：大学本科<br>
+专业：计算机科学与技术<br>
+毕业院校：江西理工大学应用科学学院<br>
+编程经历<br>
+<br>
+资源共享网站（2013.10）<br>
+开发环境：Dreamweaver+Access+IIS<br>
+开发任务：主要负责UI界面设计以及一系列前台功能的实现以及前后台功能的衔接和后台的处理。如：后台资源信息的管理、搜索功能的实现等。<br>
+<br>
+图书借阅管理系统（2014.04）<br>
+开发环境：Visual C++6.0+MySql<br>
+开发任务：参与负责系统登录，图书管理，读者管理，借阅管理和主菜单设计及实现编码。<br>
+<br>
+企业进销存管理系统（2014.06）<br>
+开发环境：Eclipse+SqlSever2000<br>
+开发任务：主要负责数据库的设计、主界面的设计、销售管理和库存管理功能的实现。<br>
+<br>
+模拟钢琴2014.12<br>
+Eclipse+ADT+Android SDK<br>
+开发任务：实现一个在安卓手机上运行的模拟钢琴，点击模拟琴键弹奏钢琴。<br>
+<br>
+坦克大战2014.06<br>
+Eclipse+ADT+Android SDK<br>
+开发任务：实现一个经典的坦克大战游戏<br>
+<br>
+快速点2015.05<br>
+Eclipse+ADT+Android SDK<br>
+开发任务：实现一个类似节奏大师的游戏，通关模式。<br>
+</div>
+<script type="text/javascript">
+writeContent(true);
+</script>
+
+</body>
+</html>
