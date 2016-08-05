@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>guochaolang.github.io by GUOCHAOLANG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <style type="text/css">
+<!--
+.STYLE1 {color: #FFFFFF}
+.STYLE2 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.STYLE3 {
+	color: #000000;
+	font-weight: bold;
+}
+-->
+    </style>
+</head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">GUOCHAOLANG</h1>
+      <h2 class="project-tagline STYLE1">
+		  <span class="STYLE6"><a href="https://github.com/GUOCHAOLANG" class="STYLE2 STYLE3">My Github</a>   
+		  <a href="http://guochaolang.github.io/index.html" class="STYLE2 STYLE3">博客</a>   
+		  <a href="http://guochaolang.github.io/index.html" class="STYLE3">作品</a>   
+		  <a href="http://guochaolang.github.io/PersonResume.html" class="STYLE3">个人简历</a></span> </h2>
+    </section>
+
+    <section class="main-content">
+ <h1></h1>Waiting for updates</h1>
+    </section>
+
+  </body>
+</html>
