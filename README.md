@@ -1,6 +1,8 @@
+
 # guochaolang.github.com
 
 ### 个人主页，包含个人介绍，整理写技术文章
+使用Jekyll Gitbook Theme 作为个人主页主题
 
 ### Git使用流程记录
 * 下载远程仓库 git clone https://xxxxxx.com.git

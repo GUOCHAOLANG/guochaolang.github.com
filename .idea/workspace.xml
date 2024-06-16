@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d097059b-33fa-4cd0-bdcf-8e24b25878d5" name="Changes" comment="20240616 重新使用，作为输出地址">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README-GitbookTheme-backup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README-GitbookTheme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/application-insights.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/cnzz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/disqus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/fixes-chrome-anchors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/gitbook-sharing.json.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/google-analytics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/mathjax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/mermaid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/metadata-home.json.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/metadata-post.json.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/metadata.json.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/toc-date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/search-base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/contact.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/design/draft.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/guocl_cv.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-04-27-why.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-04-28-howto.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-04-29-license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-08-10-toc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2022-05-24-page_cover.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2022-06-26-wide_tables.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2022-06-30-tips_warnings_dangers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2023-08-31-mermaid.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2023-10-14-math-latex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2023-12-12-footnotes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/dinosaur.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/custom-local.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/fonts/fontawesome/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/fonts/fontawesome/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/fonts/fontawesome/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/fonts/fontawesome/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/fonts/fontawesome/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/fonts/fontawesome/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-fontsettings/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-lunr/lunr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-lunr/search-lunr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-search-pro/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-search-pro/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-search/lunr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-search/search-engine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-search/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-sharing/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-splitter/splitter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook-plugin-splitter/splitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/gitbook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/images/apple-touch-icon-precomposed-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/base16.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/bw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/colorful.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/gruvbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/igor_pro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/magritte.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/molokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/monokai_sublime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/pastie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/thankful_eyes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/rouge/tulip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gitbook/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/search_plus_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="backup_20240616" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\guocl\soft\apache-maven-3.9.6-bin\apache-maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\guocl\soft\apache-maven-3.9.6-bin\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx1024m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2hwCj1o3GD1xCo0oKZsZqD01JDi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/guocl/project/guochaolang.github.com/_pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\guocl\project\guochaolang.github.com\_pages" />
+      <recent name="E:\guocl\project\guochaolang.github.com" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d097059b-33fa-4cd0-bdcf-8e24b25878d5" name="Changes" comment="" />
+      <created>1716789449902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716789449902</updated>
+      <workItem from="1716789450974" duration="387000" />
+      <workItem from="1718495889335" duration="11457000" />
+    </task>
+    <task id="LOCAL-00001" summary="20240616 重新使用，作为输出地址">
+      <option name="closed" value="true" />
+      <created>1718496408919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718496408919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="20240616 重新使用，作为输出地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240616 重新使用，作为输出地址" />
+  </component>
+</project>
