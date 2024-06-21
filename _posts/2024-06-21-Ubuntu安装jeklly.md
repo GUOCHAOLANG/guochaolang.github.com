@@ -2,7 +2,7 @@
 title: Ubuntu安装jeklly
 author: Guocl
 date: 2024-06-21
-category: Jekyll
+category: 软件
 layout: post
 mermaid: true
 ---

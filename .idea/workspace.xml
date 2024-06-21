@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d097059b-33fa-4cd0-bdcf-8e24b25878d5" name="Changes" comment="添加文章">
+    <list default="true" id="d097059b-33fa-4cd0-bdcf-8e24b25878d5" name="Changes" comment="修改文章">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README-GitbookTheme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README-GitbookTheme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2024-06-21-Ubuntu安装jeklly.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-06-21-Ubuntu安装jeklly.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-06-21-设计模式实践.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-06-21-设计模式实践.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.idesettings.quicklists",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,7 +91,7 @@
       <workItem from="1716789450974" duration="387000" />
       <workItem from="1718495889335" duration="13742000" />
       <workItem from="1718965563896" duration="181000" />
-      <workItem from="1718965757687" duration="483000" />
+      <workItem from="1718965757687" duration="1471000" />
     </task>
     <task id="LOCAL-00001" summary="20240616 重新使用，作为输出地址">
       <option name="closed" value="true" />
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718965943187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改文章">
+      <option name="closed" value="true" />
+      <created>1718966418180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718966418180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +145,7 @@
     <MESSAGE value="正式开始输出（简历整理）（使用Jekyll 开始书写）" />
     <MESSAGE value="移除部分示例模板" />
     <MESSAGE value="添加文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文章" />
+    <MESSAGE value="修改文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改文章" />
   </component>
 </project>
