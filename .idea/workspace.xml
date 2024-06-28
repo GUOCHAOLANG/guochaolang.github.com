@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d097059b-33fa-4cd0-bdcf-8e24b25878d5" name="Changes" comment="SpringBoot自定义Starter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/google-analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/google-analytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/guocl_cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/guocl_cv.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,9 @@
       <workItem from="1718965563896" duration="181000" />
       <workItem from="1718965757687" duration="2587000" />
       <workItem from="1718972377672" duration="1876000" />
-      <workItem from="1719198792371" duration="1191000" />
+      <workItem from="1719198792371" duration="2790000" />
+      <workItem from="1719540783215" duration="3717000" />
+      <workItem from="1719546819432" duration="4565000" />
     </task>
     <task id="LOCAL-00001" summary="20240616 重新使用，作为输出地址">
       <option name="closed" value="true" />
